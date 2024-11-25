@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    },
+                    backgroundImage: {
+                        'abu': "url('./img/IMAGE.png')",
+                    }
+                }
+            }
+        }
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="bg-[#121214]">
+        <div class="container max-[1220px] mx-auto">
+            <nav class="flex items-center gap-[30px] py-[29px]">
+                <ul class="flex text-[#A6A8AD] items-center gap-[20px]">
+                    <img src="img/IMAGE.svg" alt="logo">
+
+                    <li><a href="#">Sounds</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Plugins</a></li>
+                    <li><a href="#">Studio</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+                <button class="py-[8px] px-[21px] rounded-[30px] bg-white font-[600] text-[20px] ml-auto">Sign
+                    up</button>
+            </nav>
+        </div>
+
+    </header>
+    <main class="pt-[168px] pb-[168px] bg-abu bg-no-repeat bg-cover text-white">
+        <div class="container mx-auto">
+          <h1 class="text-[72px] w-[30%] mb-[30px]">Step into the producer’s playground</h1>
+          <p class="text-[24px] w-[32%] mb-[30px]">Explore the world’s best sample library and an unmatched marketplace of plugins and DAWs.</p>
+          <button class="py-[16px] px-[32px] rounded-[8px] bg-blue-800 text-white">Try free</button>
+        </div>
+    </main>
+</body>
+
+</html>
